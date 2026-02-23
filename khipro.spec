@@ -1,5 +1,5 @@
 Name:           khipro
-Version:        34.4.1
+Version:        34.4.3
 Release:        1%{?dist}
 Summary:        Khipro Bangla Input Method for m17n
 
@@ -32,6 +32,9 @@ install -p -m 0644 bn-khipro.png %{buildroot}%{_datadir}/m17n/icons/
 %{_datadir}/m17n/icons/bn-khipro.png
 
 %changelog
+* Mon Feb 23 2026 qomarhsn <mail@qomarhsn.com> - 34.4.3-1
+- Update to khipro-m17n v34.4.3
+
 * Wed Feb 11 2026 qomarhsn <mail@qomarhsn.com> - 34.4.1-1
 - Update to khipro-m17n v34.4.1
 
